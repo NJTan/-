@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,SAAS;EACL,OAAO,EAAE,IAAI;EAEX,cAAS,EAAC,MAAM;EAEpB,OAAO,EAPI,KAAK;EAQhB,oBAAU;IACT,MAAM,EAAC,KAAc",
+"sources": ["../../../../../%E6%B1%95%E5%A4%A7%E8%AF%BE%E7%A8%8B%E8%A1%A8/%E4%BB%BB%E5%8A%A1/sassDemo.js/pages/logs/log.scss"],
+"names": [],
+"file": "log.wxss"
+}

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+    <picker id='picker'
+             cancel='取消'
+            confirm='确定'
+            title='我是标题'
+            content='恭喜你，学会了小程序组件'
+            bind:cancelEvent="_cancelEvent"
+            bind:confirmEvent="_confirmEvent">
+    </picker>
+
+    <button type="primary" bindtap="showPicker" class="btn"> ClickMe! </button>
+</view>

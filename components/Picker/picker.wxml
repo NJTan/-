@@ -1,0 +1,12 @@
+<view class="wx_picker_container" hidden="{{!isShow}}">
+  <view class="wx_picker">
+      <view class="wx_picker_btn1" catchtap="_cancelEvent" >{{cancel}}</view>
+      <view class="wx_picker_btn2" catchtap="_confirmEvent">{{confirm}}</view>
+      <radio-group class="radio-group" bindchange="radioChange">
+          <label class="radio" wx:for="{{items}}">
+              <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+          </label>
+        
+      </radio-group>
+  </view>
+</view>

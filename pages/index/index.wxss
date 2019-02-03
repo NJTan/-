@@ -1,0 +1,5 @@
+/* pages/index/index.wxss */
+.btn{
+  position:absolute;
+  top:80%;
+}

@@ -1,0 +1,8 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx; }
+  .log-list .log-items {
+    margin: 10rpx; }
+
+/*# sourceMappingURL=log.wxss.map */

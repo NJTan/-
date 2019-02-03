@@ -1,0 +1,13 @@
+@charset "utf-8";
+$padding-rpx:40rpx;
+
+.log-list{
+    display: flex;
+    flex:{
+      direction:column;
+    }
+  padding:$padding-rpx;
+  .log-items{
+   margin:$padding-rpx/4;
+  }
+}
